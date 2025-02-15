@@ -3,8 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	var s, t string = "Yuval", "Brodsky"
-	fmt.Println(s)
-	fmt.Println(t)
-
+	var x, y int = 100, 90
+	fmt.Println((x + y) >> 2)
 }
